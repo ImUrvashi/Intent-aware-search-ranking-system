@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: intent-aware-search
+    name: intent-aware-search-ranking-system
     runtime: python
     plan: free
     buildCommand: bash build.sh
