@@ -15,11 +15,9 @@ Built end to end on **real scraped Amazon data** (728 men's apparel & footwear p
 | Capability | How |
 |---|---|
 | **Intent-aware search** | TF-IDF text matching + a trained ranker, not plain keyword overlap |
-| **On-topic guard** | A data-driven category guard so `"slim fit jeans"` returns **jeans**, not popular undershirts |
 | **Smart ranking** | A Random Forest blends 6 signals (text match, rating, price, reviews, sentiment, popularity) |
 | **Recommendations** | Product-to-product cosine similarity ("you may also like") |
 | **Explainability** | Plain-English reasons: *"Strong match · Highly rated (4.8/5) · Budget-friendly price"* |
-| **Web UI** | A Streamlit search page anyone can use |
 
 ---
 
