@@ -7,6 +7,7 @@ of products, tells you **why** each one ranked where it did, and suggests **simi
 
 Built end to end on **real scraped Amazon data** (728 men's apparel & footwear products,
 6,327 reviews) using classic, explainable ML — no black boxes.
+Live: https://intent-aware-search-ranking-system.onrender.com
 
 ---
 
