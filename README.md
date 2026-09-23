@@ -38,28 +38,6 @@ items first.
 
 ---
 
-## Project structure
-
-```
-├── Amazon-Ecom_dataset/     raw input data (products.csv, reviews.csv)
-├── data/                    generated: cleaned_products.csv, training_data.csv
-├── notebooks/01_eda.ipynb   exploratory data analysis
-├── src/
-│   ├── preprocessing.py     clean raw CSVs  → cleaned_products.csv
-│   ├── features.py          TF-IDF search + the 6 feature scores
-│   ├── model.py             build training data + train the ranker
-│   ├── ranking.py           query → ranked product list
-│   ├── recommender.py       "you may also like"
-│   ├── explain.py           "why was this ranked?"
-│   └── evaluate.py          keyword baseline vs ML ranker
-├── models/                  saved .pkl artifacts (vectorizer, matrix, ranker)
-├── app.py                   Streamlit web app
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Quick start
 
 ```powershell
