@@ -38,7 +38,7 @@ items first.
 
 ---
 
-## Quick start
+<!-- ## Quick start
 
 ```powershell
 # install dependencies (or use the provided .venv)
@@ -54,6 +54,6 @@ python -m src.evaluate
 
 # launch the web app
 streamlit run app.py
-```
+``` -->
 
 
